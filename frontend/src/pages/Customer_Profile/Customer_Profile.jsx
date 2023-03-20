@@ -6,7 +6,18 @@ import React from 'react'
 
 const Customer_Profile = () => {
   return (
+<<<<<<< Updated upstream
     <div>Customer_Profile</div>
+=======
+    <div>
+        <Navbar /> 
+        <div className='master'>
+
+
+        </div>
+        <Footer />
+    </div>
+>>>>>>> Stashed changes
   )
 }
 
