@@ -11,7 +11,7 @@ const Customer_Profile = () => {
         <Navbar /> 
         <div className='master'>
 
-
+        <h1>Hi customer</h1>
         </div>
         <Footer />
     </div>
