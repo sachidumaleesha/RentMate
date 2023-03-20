@@ -1,19 +1,15 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
-import './property.css'
+import './checkout.css'
 
-const Property = () => {
+const Checkout = () => {
   return (
     <div>
         <Navbar/>
-        <h2>Content Goes Here</h2>
-        {/* Header */}
-        {/* Body Content */}
-        {/* End part */}
         <Footer/>
     </div>
   )
 }
 
-export default Property
+export default Checkout
