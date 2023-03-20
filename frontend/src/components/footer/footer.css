@@ -1,0 +1,78 @@
+/* Footer styles */
+
+footer {
+    padding: 50px 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-column {
+    width: 23%;
+}
+
+.footer-column h3 {
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-column input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-column button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-column button[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+.payment-methods {
+    float: left;
+}
+
+.social-buttons {
+    float: right;
+}
+
+.social-buttons a {
+    display: inline-block;
+}
