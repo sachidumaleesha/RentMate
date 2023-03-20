@@ -6,9 +6,7 @@ import React from 'react'
 
 const Customer_Profile = () => {
   return (
-<<<<<<< Updated upstream
-    <div>Customer_Profile</div>
-=======
+
     <div>
         <Navbar /> 
         <div className='master'>
@@ -17,7 +15,7 @@ const Customer_Profile = () => {
         </div>
         <Footer />
     </div>
->>>>>>> Stashed changes
+
   )
 }
 
