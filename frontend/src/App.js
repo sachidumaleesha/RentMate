@@ -5,6 +5,8 @@ import Showroom from "./pages/Showroom/Showroom";
 import Checkout from "./pages/Checkout/Checkout";
 import Customer_Profile from "./pages/Customer_Profile/Customer_Profile";
 import Property from "./pages/Property/Property";
+import Dashboard from "./pages/Landlord_Dashboard/Dashboard";
+
 
 const App = () => {
   return (
@@ -15,6 +17,13 @@ const App = () => {
         <Route path="/checkout" element={<Checkout/>} />
         <Route path="/customer" element={<Customer_Profile/>} />
         <Route path="/property" element={<Property/>} />
+
+        {/* Route Path for Landlord */}
+        <Route path="/landlord">
+          <Route path="dashboard" element={<Dashboard/>}></Route>
+        </Route>
+        {/* End of the route Path for Landlord */}
+        
       </Routes>
     </div>
   )
