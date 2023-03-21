@@ -66,10 +66,25 @@ footer {
 
 .payment-methods {
     float: left;
+    display: flex;
+}
+
+.payment-methods img{
+    width: 40px;
+    height: 35px;
+    margin-right: 10px;
+
 }
 
 .social-buttons {
     float: right;
+    margin-right:5px;
+}
+
+.social-buttons i{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 .social-buttons a {
