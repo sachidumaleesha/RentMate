@@ -7,7 +7,8 @@ import Customer_Profile from "./pages/Customer_Profile/Customer_Profile";
 import Property from "./pages/Property/Property";
 import Dashboard from "./pages/Landlord_Dashboard/Dashboard";
 
-function App() {
+
+const App = () => {
   return (
     <div>
       <Routes>
@@ -22,9 +23,10 @@ function App() {
           <Route path="dashboard" element={<Dashboard/>}></Route>
         </Route>
         {/* End of the route Path for Landlord */}
+        
       </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
