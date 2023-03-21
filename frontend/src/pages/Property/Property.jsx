@@ -7,7 +7,6 @@ const Property = () => {
   return (
     <div>
         <Navbar/>
-        <h2>Content Goes Here</h2>
         {/* Header */}
         {/* Body Content */}
         {/* End part */}
