@@ -3,7 +3,6 @@ import './customer_Profile.css'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 
-
 const Customer_Profile = () => {
   return (
 
