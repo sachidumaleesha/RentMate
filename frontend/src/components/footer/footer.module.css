@@ -1,0 +1,83 @@
+/* Footer styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  padding: 40px 50px 30px 50px;
+  bottom: 0;
+  width: 100%;
+  background-color: #131a22;
+  color: #fff;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .row li {
+  margin-bottom: 10px;
+  font-size: 15.5px;
+  list-style-type: none;
+}
+
+.footer .row .link {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.footer .column h3 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.footer .column form {
+  padding: 0;
+  display: block;
+}
+
+.footer .column form input {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer .column form button {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 07px;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+
+.footer .column form button:hover {
+  background: #d8d8d8;
+}
+
+.footer .bottommenu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer .bottommenu .left img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer .bottommenu .right i{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 25px;
+}
+

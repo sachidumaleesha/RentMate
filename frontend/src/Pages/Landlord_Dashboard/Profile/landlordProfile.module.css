@@ -1,0 +1,87 @@
+.top__section__area .banner__section img{
+    height: 200px;
+    width: 100%;
+    box-shadow:none;
+    border-radius: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.top__section__area .banner__content__area{
+    background: #f2f2f2;
+    margin-top: -50px;
+    overflow: hidden;
+    padding: 0 20px 20px 20px;
+    display: flex;
+    border-radius: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.top__section__area .banner__content__area img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #fff;
+}
+
+.top__section__area .landlord__smallinfo{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.top__section__area .landlord__data{
+    display: flex;
+}
+
+.top__section__area .accountdel__btn{
+    justify-content: end;
+    margin-left: 420px !important;
+}
+
+.top__section__area .delete__account{
+    width: 250px;
+}
+
+.top__section__area .lardlord__name{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.top__section__area .landlord__data{
+    font-size: 15px;
+}
+
+.top__section__area .landlord__data div{
+    margin-right: 20px;
+}
+
+.top__section__area .landlord__data div i{
+    margin-right: 05px;
+}
+
+/* Bottom Content */
+
+.bottom__section__area .tab__navigator{
+    margin-top: 20px;
+}
+
+
+.tab__navigator div:nth-child(2){
+   padding: 0;
+}
+
+.data__space p{
+    padding: 25px 15px;
+}
+
+.data__space form{
+    padding: 0;
+    z-index: 0;
+    overflow: none;
+    position: none;
+}
+
+.submit__btn{
+    width: 100%;
+}

@@ -1,0 +1,124 @@
+
+.newUserRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.newUserItem {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column-reverse;
+ 
+}
+
+.newUserItem label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  order: 2; 
+}
+
+.newUserItem input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  order: 1; 
+}
+
+.newUserButton {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  order: 3;
+}
+
+.newUserButton:hover {
+  background-color: #3e8e41;
+}
+ .uploadIcon {
+  display: flex;
+  align-items: center;
+}
+
+.uploadIcon i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.uploadIcon .imageUploadLabel {
+  display: inline-block;
+  margin: 0;
+}
+
+.uploadIcon input[type="file"] {
+  display: none;
+}
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.mainbody{
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+  border-radius: 12px;
+  border-radius: 10px; 
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+.userImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 5px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.uploadIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+.error {
+  border-color: #dc3545;
+}
+
+.error_message {
+  color: #dc3545;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}

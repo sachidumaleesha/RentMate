@@ -1,0 +1,161 @@
+.master {
+    width: 100%;
+    height: 750px;
+    /* background-color: #e6ecef; */
+    display: flex;
+}
+
+.profile_home {
+    width: 95%;
+    height: 700px;
+    background-color: #e6ecef;
+    margin-left: -10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* border-top-left-radius: 40PX;
+    border-bottom-left-radius: 40PX; */
+}
+
+.main_card{
+    width: 80%;
+    height: 700px;
+    background-color: #fafafa88;
+    margin-left: 20px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+.greeting h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.status_bar{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(29, 230, 119); */
+    border-top-left-radius: 80px;
+    display: flex;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.status_bar .container{
+    width: 80%;
+    height: 250px;
+    background-color: #fafafa88;
+    padding: 50px;
+    margin-left: 100px;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center */
+}
+.status_bar .content1{
+    /* position: relative; */
+    width: 280px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-left: 5px solid #1cc953;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.prop_book{
+    /* margin-left: 50px; */
+}
+.status_bar .content2{
+    width: 280px;
+    height: 100px;
+    background-color: #ffffff;
+    border-left: 5px solid #1c87c9;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.second_layer{
+    width: 100%;
+    height: 500px;
+    /* background-color: #1cc953; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 80px;
+    justify-content: space-around;
+}
+.todo_container{
+    width: 450px;
+    height: 100%;
+    /* background-color: #1c87c97f; */
+    margin-left: 30px;
+
+}
+.todo_list{
+    width: 80%;
+    height: 85%;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    display: flex;
+    flex-direction: column;
+}
+.todo_list h1{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.image_layer{
+    width: 450px;
+    height: 100%;
+    background-image: url("./images/family.png");
+    background-size: cover; 
+}
+.todo_input{
+    width: 90%;
+    height: 10%;
+    background-color: #ffff;
+    margin: 0 auto;
+}
+.todo_list button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1c87c9;
+    font-weight: 500;
+    color: #e6ecef;
+}
+.todo_list form{
+    width: 100%;
+}
+.display_todo{
+    /* background-color: #1cc953; */
+    width: 100%;
+    height: 20%;
+    margin-top: 190px;
+    text-align: left;
+    padding-left: 30px;
+}

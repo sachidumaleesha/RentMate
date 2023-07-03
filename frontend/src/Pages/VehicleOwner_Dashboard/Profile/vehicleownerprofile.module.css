@@ -1,0 +1,70 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(to right, #d3d1d1, #f5f1f1, #e2dfe2, #ece9eb, #dbdddb);
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShowImg {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.userShowUsername {
+  font-weight: 600;
+}
+
+.userShowUserTitle {
+  font-weight: 300;
+}
+
+.userShowBottom{
+  margin-top: 20px;
+}
+
+.userShowTitle {
+font-size: 14px;
+font-weight: 600;
+color: rgb(175, 170, 170);
+}
+
+.userShowInfo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.userShowIcon{
+  font-size: 16px;
+}
+
+.userShowInfoTitle{
+  margin-left: 10px;
+}
+.bx_bx_envelope{
+  color: blueviolet;
+}

@@ -1,0 +1,241 @@
+
+.master {
+  width: 100%;
+  height: 750px;
+  /* background-color: #e6ecef; */
+  display: flex;
+}
+
+.profile_home {
+  width: 95%;
+  height: 700px;
+  background-color: #e6ecef;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /* border-top-left-radius: 40PX;
+  border-bottom-left-radius: 40PX; */
+}
+
+.main_card {
+  width: 75%;
+  height: 650px;
+  background-color: #ada9a988;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcard{
+  width:94%;
+  height: 600px;
+  background-color: #e6ecef;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+.Subscription{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.body1{
+  background-color: #dee1e4;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.pricing_table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px,100%);
+}
+
+.pricing_card{
+  flex: 1;
+  max-width: 360px;
+  height: 600px;
+  background-color: #fff;
+  margin: 20px,10px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #2d2d2d;
+  transition: .3s linear;
+  box-shadow: 0 7px 10px rgb(1 2 2 / 0.2);
+  border-radius: 20px;
+}
+
+.pricing_card_header{
+  background-color: #0fbcf9;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: .4s linear;
+}
+
+.pricing_card_header:hover{
+  box-shadow: 0 0 0 26em #0fbcf9;
+}
+
+.price{
+  font-size: 70px;
+  color: #0fbcf9;
+  margin: 40px 0;
+  transition: .2s linear;
+}
+
+.price sup, .price spam{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.price{
+  color: #3788a8;
+}
+
+.pricing_card li{
+  font-size: 16px;
+  padding: 10px 0;
+  margin-left: 0px;
+}
+
+.pay_btn{
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 2px solid #0fbcf9;
+  color: #0fbcf9;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .3s linear;
+  margin-top: 75px;
+  border-radius: 10px;
+}
+
+.pay_btn:hover{
+  background-color:#0fbcf9;
+  color: #fff;
+
+}
+
+
+  .subscription_box_info{
+    margin-left: 550rem;
+  }
+
+  .formbody{
+    background-color: rgb(53, 51, 85);
+    padding: 10rem;
+    margin-bottom: 10rem;
+    box-shadow: 0 3rem 10rem rgb(1 0 0 / 0.2);
+    border-radius: 12rem;
+    position: static;
+    width: 400rem;
+    height: 500rem;
+    margin-left: 500rem;
+    margin-top: 50rem;
+    
+ 
+   
+    overflow-y:hidden;  
+   
+    
+    margin-left: 30rem;
+    margin: 30rem;
+   padding-bottom: 10rem;
+  
+   
+ }
+  
+  .showroomItem {
+    width: 400rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-right: 20rem;
+   
+   }
+
+  .showroomTitle{
+    margin-left: 200rem;
+    color: rgb(29, 28, 28);
+    padding-top: 10rem;
+  } 
+  
+
+  
+  .showroomSelect{
+      height: 40rem;
+      border-radius: 5rem;
+  }
+
+  .priceButton{
+    width: 350rem;
+    height: 60rem;
+    border: none;
+    background-color: #3981ff;
+    color: white;
+    font-weight: 600;
+    font-size: 30rem;
+    border-radius: 10rem;
+    padding: 7rem 10rem;
+    margin-top: 50rem;
+    cursor: pointer;
+    margin-left: 15rem;
+    margin-top: 30rem;
+    
+  } 
+
+ .priceButton:hover{
+    background-color: #1c5ac4;
+  }
+
+  .priceh6{
+    font-weight: 200rem;
+    margin-left: 20rem;
+
+  }
+  
+  .showroomButton{
+    width: 150rem;
+    height: 50rem;
+    border: none;
+    background-color: #3981ff;
+    color: white;
+    font-weight: 600;
+    border-radius: 10rem;
+    padding: 7rem 10rem;
+    margin-top: 300rem;
+    cursor: pointer;
+    margin-left: 80rem;
+  }
+  .showroomButton:hover{
+    background-color: #2373ff;
+  }

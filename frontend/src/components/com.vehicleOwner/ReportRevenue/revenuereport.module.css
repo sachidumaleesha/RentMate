@@ -1,0 +1,139 @@
+.contentbody{
+  display: none;
+}
+
+@media print{
+  .contentbody{
+      display: block !important;
+  }
+}
+
+.CReportpage_header{
+  width: 100%;
+  height: 5cm;
+  /* background-color: #eef0f1; */
+  display: flex;
+  flex-direction: column;
+}
+.CReportpage_header .layer1{
+  width: 100%;
+  height: 2cm;
+  display: flex;
+  flex-direction: row;
+  /* background-color: orange; */
+}
+.CReportpage_logo{
+  width: 70%;
+  height: 5cm;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+}
+.pdf_title{
+  width: 100%;
+  height: 2cm;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+}
+.pdf_title_container{
+  width: 100%;
+  height: 1cm;
+  text-align: center;
+  /* background-color: #f2670b; */
+}
+.date_container{
+  width: 25%;
+  height: 1cm;
+  /* background-color: pink; */
+  margin-left: auto; 
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.date_container span{
+  margin-right: 5px;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+.pdf_title_container h1{
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: underline  #000000 3px;
+}
+.right_container{
+  width: 50%;
+  height: 5cm;
+  /* background-color: plum; */
+  /* display: flex; */
+
+}
+.container_right{
+  width: 100%;
+  height: 5cm;
+  /* background-color: rgb(116, 9, 27); */
+  float: right;
+}
+
+.container_right .lay1{
+  width: 100%;
+  height: 1.3cm;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+}
+.lay1 .data{
+  width: 80%;
+  height: 1.5cm;
+  /* background-color: darkviolet; */
+  display: flex;
+  flex-direction: column;
+}
+.lay1 .data span{
+  font-size: 1em;
+  text-align: end;
+  margin-right: 10px;
+}
+.lay1 .data_icon{
+  width: 15%;
+  height: 1.2cm;
+  /* background-color: #fd7217; */
+  margin-top: 2px;
+  background: linear-gradient(to right, #fd731791, #f2670b);
+  display: flex;
+}
+.CReportpage_logo_container{
+  width: 80%;
+  height: 1.8cm;
+  /* background-color: plum; */
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.CReportpage_logo_container img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.CReportpage_logo_container_sitename{
+  /* background-color: #3694c3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sitename{
+  color: #000;
+  font-size: 22px;
+  margin-top: 05px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+hr{
+  width: 90%;
+  margin:  0 auto;
+}

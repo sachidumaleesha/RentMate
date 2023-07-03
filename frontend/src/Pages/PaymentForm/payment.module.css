@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    
+    padding-top: 70px;
+    margin-top: 150px;
+    background: #f7f7f7;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("https://www.chetu.com/img/payments/payments-main/sliderbg/payments-banner-1.jpg");
+  }
+  
+  .h8 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .row {
+    margin-bottom: 15px;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .form_control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn_primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    
+  }
+  
+  .btn_primary:hover {
+    background: #0056b3;
+  }
+  

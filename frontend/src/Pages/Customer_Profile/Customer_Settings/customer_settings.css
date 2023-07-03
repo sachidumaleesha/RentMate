@@ -1,0 +1,106 @@
+.customer_settings_master {
+    width: 100%;
+    height: 750px;
+    /* background-color: #e6ecef; */
+    display: flex;
+}
+
+.customer_settings_profile_home {
+    width: 95%;
+    height: 700px;
+    background-color: #e6ecef;
+    margin-left: -10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* border-top-left-radius: 40PX;
+    border-bottom-left-radius: 40PX; */
+}
+
+.customer_settings_main_card{
+    width: 80%;
+    height: 700px;
+    background-color: #fafafa88;
+    margin-left: 20px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 20px; */
+}
+.customer_settings_button_container_layer1{
+    margin-top: 30px;
+    width: 90%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.customer_settings_button_container_layer2{
+    /* margin-top: 10px; */
+    width: 90%;
+    height: 300px;
+    /* background-color: rgb(0, 55, 255); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.settings_button{
+    margin-top: 60px;
+    width: 35%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    margin-left: -20px;
+
+}
+.settings_button a{
+    background: orange;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+}
+.settings_button .button_inlayer{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin: 8px 0px !important;
+    padding: 16px !important;
+    border-radius: 12px !important;
+    text-decoration: none !important;
+}
+.button_inlayer .button_icon{
+    width: 100%;
+    height: 40px;
+    display: block;
+    /* background-color: red; */
+}
+.button_icon .icon_set{
+    display: block;
+    height: 32px;
+    width: 32px;
+    color: rgb(45, 45, 45);
+}
+.button_info .title{
+    font-size: 16px ;
+    line-height: 20px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    height: auto;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.button_info .button_des{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(113, 113, 113);
+    font-weight: 400;
+}

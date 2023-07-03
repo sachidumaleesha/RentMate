@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section .image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  filter: blur(0.5px);
+}
+
+.hero-section .hero-section-content {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-section .text .main-title {
+  font-size: 45px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.hero-section .text .secondary-title {
+  font-size: 25px;
+  font-weight: 250;
+  color: #fff;
+}
+
+.hero-section-content .search-box input {
+  width: 450px;
+  height: 35px;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  justify-content: center;
+}

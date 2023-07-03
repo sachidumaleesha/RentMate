@@ -1,0 +1,52 @@
+.content {
+  position: relative;
+  height: 100vh;
+  left: 250px;
+  width: calc(100% - 250px);
+  padding: 8px 40px;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.contentArea {
+  font-size: 16px;
+}
+
+.breadcrumb__path {
+  padding: 5px !important;
+  margin-top: 12px;
+}
+
+.breadcrumb__path li {
+  height: 20px !important;
+  margin-top: 0px;
+  font-size: 14.5px;
+  display: flex;
+}
+
+.line {
+  border: 0;
+  height: 1.2px;
+  background: #ccc;
+  width: 100%;
+  margin: 12px 0 10px;
+}
+
+.welcomemsg {
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  background: #EFEFEF;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 11px;
+  border-radius: 6px;
+}
+
+.contentbody{
+  padding-top: 22px;
+}

@@ -1,0 +1,366 @@
+.CReportpage{
+    height: 39.8cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: none;
+}
+
+@media print {
+    .CReportpage {
+      display: block !important;
+    }
+  }
+.CReportpage_header{
+    width: 100%;
+    height: 5cm;
+    display: flex;
+    flex-direction: column;
+}
+.CReportpage_header .layer1{
+    width: 100%;
+    height: 2cm;
+    display: flex;
+    flex-direction: row;
+}
+.CReportpage_logo{
+    width: 70%;
+    height: 5cm;
+    display: flex;
+    flex-direction: column;
+}
+.pdf_title{
+    width: 100%;
+    height: 2cm;
+    display: flex;
+    flex-direction: column;
+}
+.pdf_title_container{
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    font-size: 1.5em;
+}
+.date_container{
+    width: 25%;
+    height: 1cm;
+    margin-left: auto; 
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.date_container span{
+    margin-right: 5px;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.pdf_title_container h1{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: underline  #000000 3px;
+}
+.right_container{
+    width: 50%;
+    height: 5cm;
+}
+.container_right{
+    width: 100%;
+    height: 5cm;
+    float: right;
+}
+
+.container_right .lay1{
+    width: 100%;
+    height: 1.3cm;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+.lay1 .data{
+    width: 80%;
+    height: 1.5cm;
+    display: flex;
+    flex-direction: column;
+}
+.lay1 .data span{
+    font-size: 1.1em;
+    text-align: end;
+    margin-right: 10px;
+}
+.lay1 .data_icon{
+    width: 15%;
+    height: 1.2cm;
+    margin-top: 2px;
+    background: linear-gradient(to right, #fd731791, #f2670b);
+    display: flex;
+}
+.CReportpage_logo_container{
+    width: 80%;
+    height: 1.8cm;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.CReportpage_logo_container img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.CReportpage_logo_container_sitename{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sitename{
+    color: #000;
+    font-size: 42px;
+    margin-top: 05px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+hr{
+    width: 90%;
+    margin:  0 auto;
+}
+.container_body{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.left_lay{
+    width: 50%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.right_lay{
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+.landloard_details{
+    width: 98%;
+    height: 490px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.landloard_title{
+    width: 100%;
+    height: 30px;
+}
+.landloard_title span{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 10px;
+    color: #424242;
+}
+.landloard_data{
+    width: 95%;
+    height: 95%;
+    margin-top: 20px;
+}
+.landloard_data ul li{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.data_div{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: 400;
+    
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.tag{
+    color: #636161;
+}
+.tag_value{
+    color: #1d1c1c;
+    margin-left: 10px;
+}
+.description{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.property_desc{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.property_payment{
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc_title{
+    width: 100%;
+    height: 30px;
+}
+.desc_title h1{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+.property_desc_container{
+    width: 100%;
+    height: 370px;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+.property_desc_container ul li{
+    margin-top: 10px;
+}
+.desc_div{
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.desc_div span{
+    margin-left: 10px;
+    font-size: 1em;
+}
+.desc_tag{
+    color: #636161;
+}
+.desc_tag_value{
+    color: #1d1c1c;
+    margin-left: 10px;
+}
+.payment_section{
+    width: 90%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.pay_div{
+    width: 90%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.pay_div span{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+.pay_tag_value{
+    color: #1d1c1c;
+    margin-left: 10px;
+}
+.pay_tag{
+    color: #636161;
+}
+.pay_tag_value{
+    color: #1d1c1c;
+    margin-left: 10px;
+}
+.total_pay{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.pay_tot{
+    color: #040404;
+    font-size: 1.5em; 
+    font-weight: 500;   
+}
+.pay_tot_value{
+    color: #1d1c1c;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.signature_container{
+    width: 100%;
+    height: 3cm;
+    /* background-color: #f2670b; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 350px;
+}
+.layout1{
+    width: 30%;
+    height: 3cm;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+.layout1 span{
+    font-size: 2.2em;
+}
+.layout1 .signa{
+    font-size: 1.1em;
+}
+.layout2 span{
+    font-size: 2.2em;
+}
+.layout2 .signa{
+    font-size: 1.1em;
+}
+.layout2{
+    width: 30%;
+    height: 3cm;
+    display: flex;
+    flex-direction: column;
+
+}
+.layout1 .signa_name{
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+.layout2 .signa_name{
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+.footer_container{
+    width: 100%;
+    height: 1.3cm;
+    display: flex;
+    flex-direction: column;
+    font-size:0.8em;
+    align-items: center;
+    background-color: #cdcccc;
+    margin-top: 15px;
+    bottom: 0px;
+    position: absolute;
+}
+.footer_container span{
+    margin-top: 5px;
+}

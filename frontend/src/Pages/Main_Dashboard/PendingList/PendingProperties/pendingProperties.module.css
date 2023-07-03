@@ -1,0 +1,189 @@
+.R1 {
+  box-shadow: 0px 3px 10px rgba(41, 23, 27, 0.2);
+ 
+
+}
+
+.flex_container {
+  display: flex;
+}
+.gradientt{
+  color: #fff;
+  background-color:#45846d;
+  width: 220px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.flex_container > div {
+  
+  background-color:#45846d;
+  
+  width: 220px;
+  margin: 20px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.gradientt:hover{
+  background-color: rgb(109, 160, 139);
+  text-decoration: none;
+}
+
+.R1:hover{
+  background-color: rgb(109, 160, 139);
+  text-decoration: none;
+}
+
+.RECENT_POST {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  flex: 4;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+  box-shadow: 0px 3px 10px rgba(17, 13, 13, 0.3);
+}
+.column1 {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text_end1 {
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 100px;
+
+  height: 35px;
+   border: 1px solid;
+   border-radius: 10px; 
+  text-align: center;
+  width: 200px;
+  
+}
+.btn_delete {
+  background-color: #ff5757;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn_update {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.statusPending {
+  background-color: white;
+  color: #4fd253;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* input{
+  height: 15px !important;
+} */
+
+
+/*jn*/
+
+.top__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__content .right__side{
+  display: flex;
+}
+
+.left__side Input{
+
+ max-height: 70px;
+ min-height: 10px;
+}
+
+.right__side Button{
+  margin-left: 05px;
+  height: 40px;
+  
+}
+
+.tablearea__content table{
+  margin-top: 7px;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0;
+  width: 100%;
+  min-height: 0 !important;
+}
+
+.tablearea__content table th,
+.tablearea__content table td{
+  padding: 0;
+  height: 50px;
+  padding: 7px 0 0 15px;
+  text-align: left;
+  border: 0.5px solid #656d78 !important;
+}
+
+.tablearea__content table th{
+  background: #45846d;
+  color:#fff;
+}
+
+.tablearea__content table td .status__btn{
+  width: 80px;
+}
+
+.tablearea__content table td Button{
+  margin-right: 5px;
+}
+
+.tablearea__content table tr:nth-child(even){
+  background: #f2f2f2;
+  color: #000;
+}
+
+.tablearea__content table tr:nth-child(odd){
+  background: #fff;
+  color: #000;
+}
+
+.tablearea__content td img{
+  border-radius: 5px;
+}
+
+

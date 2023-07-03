@@ -1,0 +1,114 @@
+.showroom {
+    flex: 4;
+  }
+  
+  .showroomForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 600px;
+    margin-left: 20px;
+    padding-left: 30px;
+  }
+  .textbody{
+    margin-right: 700px;
+  }
+
+  /* .covershow{
+  
+    display: block;
+    margin-left:600px;
+    margin-right: 0px;
+    padding-right: 20px;
+    background-size: cover;
+    width: 200px;
+    height: 5px;
+  
+  } */
+
+  .showroomTitle{
+    color: #1e1e1f;
+    margin-left: 100px;
+  }
+
+  .formbody{
+    background-color: rgb(241, 238, 238);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+    border-radius: 12px;
+    position: static;
+    background-image: url('https://img.freepik.com/premium-photo/bright-room-with-white-wall-moderm-furniture-scandinavian-style-mockup-living-room-mockup-3d-rendering_208753-74.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .showroomItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: left;
+
+    
+  }
+  
+  .showroomItem > label {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #64748B;
+    text-align: left;
+  }
+  
+  .showroomItem > input {
+    height: 35px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  .showroomSelect{
+      height: 40px;
+      border-radius: 5px;
+  }
+
+  .showroomButtonUpdate{
+    width: 100px;
+    border: none;
+    background-color: #3981ff;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.showroomButtonUpdate:hover{
+  background-color: #2373ff;
+}
+  
+  /* .showroomButtonCancel{
+      width: 100px;
+      border: none;
+      background-color: #EF4444;
+      color: white;
+      padding: 7px 10px;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  .showroomButtonCancel:hover{
+    background-color: #DC2626;
+  } */
+
+  .showroomButton{
+    margin-left: 60px;
+  }

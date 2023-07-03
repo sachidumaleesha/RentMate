@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.newUser {
+  box-shadow: 0 5px 10px rgb(1 0 0 / 0.2);
+  width: 70%;
+  margin-left: 180px;
+  background-color: rgb(234, 248, 242);
+  border-radius: 10px;
+  margin-top: 25px;
+
+}
+.newUserTitle {
+  font-size: 23px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.newUserRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.newUserItem {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.newUserItem label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+
+  order: 2;
+}
+
+.newUserItem input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  order: 1;
+}
+.selectRoll {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  order: 1;
+}
+
+.newUserButton {
+  background-color: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 370px;
+  margin-left: 275px;
+  
+}
+/* .newUserButton1 {
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+  margin-left: 190px;
+} */
+
+.newUserButton:hover {
+  background-color: #16a34a;
+}
+.uploadIcon {
+  display: flex;
+  align-items: center;
+}
+
+.uploadIcon i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 10px 14px;
+    background: #F5F5F5;
+}
+
+.sitelogo{
+    width: 45px;
+    border-radius: 6px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.imagetext{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.image{
+    min-width: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-weight: 600;
+}
+
+.role{
+    margin-top: -2px;
+}
+
+.visitsite{
+    background: #bfe5c7;
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.sidebar header a{
+    text-decoration: none;
+}
+
+.sidebar header a:hover,
+.sidebar header a:visited{
+    color: green;
+}
+
+.visitsite i{
+    margin-left: 5px;
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+.menubar li{
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.icon i{
+    margin:0;
+    font-size: 23px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i,
+.navtext{
+    color: #707070;
+    transition: 0.2ms;
+}
+
+.navtext{
+    font-size: 16px;
+}
+
+.navlink a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 04ms;
+}
+
+.navlink a:hover{
+    background: #d3d5d8;
+}
+
+.active{
+    background: #3461FD;
+}
+
+.navlink .active:hover{
+    background: #3461FD;
+}
+
+.active .icon i,
+.active .navtext{
+    color: #fff;
+}
+
+.sidebar .menubar{
+    height: calc(100% - 105px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px 0 10px;
+}
+
+.bottomline{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 10px;
+}
+
+
+

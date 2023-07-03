@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile img{
+  height: 50px;
+  width: 50px;
+}
+
+.house_details {
+  padding: 0 12%;
+}
+
+.house_title {
+  margin-top: 50px;
+}
+
+.house_title h1 {
+  font-weight: 500;
+}
+
+.house_title .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 05px 0;
+}
+
+.house_title .row i {
+  color: #000;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.house_title .row p {
+  font-size: 15.5px;
+}
+
+/* Gallery */
+.house_details .gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "first first . ." "first first . .";
+  margin: 20px 0;
+}
+
+.house_details .gallery div img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.gallery .gallery_img_1 {
+  grid-area: first;
+}
+
+.house_details .small_details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.house_details .small_details i {
+  margin: 0;
+}
+
+.house_details .small_details .info span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.house_details .small_details .info i {
+  color: #000;
+  font-size: 25px;
+  margin-right: 4px;
+}
+
+.house_details .small_details .info p,
+.house_details .small_details .info p div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.house_details .small_details .info p {
+  margin-top: 01px;
+}
+
+.house_details .small_details .info p div {
+  margin-right: 25px;
+}
+
+.house_details .small_details .info p p {
+  font-size: 15px;
+}
+
+.house_details .line {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+  margin: 10px 0 50px;
+}
+
+/* Content Area */
+.property__description {
+  text-align: justify;
+}
+
+.more__features {
+  margin-top: 40px;
+  font-size: 17.5px;
+}
+
+.content__area__section .more__features {
+  display: flex;
+}
+
+.more__features i {
+  margin-right: 10px;
+}
+
+.more__features .left__featuers {
+  margin-right: 100px;
+}
+
+.more__features .left__featuers div,
+.more__features .right__features div {
+  margin-bottom: 10px;
+}
+
+.map {
+  margin-bottom: 50px;
+}
+
+.content__area__section .priceCal__cards {
+  margin-left: 50px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 12px 24px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.content__area__section .top__bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15.5px;
+}
+
+.calculation__parts {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-top: 15.5px;
+}
+
+.calculation__parts .price__box {
+  width: 60%;
+  border: none;
+}
+
+.calculation__parts .month__duration {
+  width: 40%;
+  background: #f2f2f2;
+  height: 35px;
+  font-size: 15.5px;
+}
+
+.priceCal__cards .reserve__btn {
+  padding: 08px;
+  cursor: pointer;
+  border-radius: 7px;
+  background: red;
+  color: white;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 15.5px;
+}
+
+.bottom__bar .pinfo {
+  margin-top: 15px;
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.lasttotal__price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15.5px;
+}
+
+.lineb {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+  margin: 10px 0 30px;
+}

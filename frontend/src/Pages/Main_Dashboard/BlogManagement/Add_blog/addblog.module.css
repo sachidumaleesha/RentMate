@@ -1,0 +1,142 @@
+.content {
+  position: relative;
+  height: 100vh;
+  left: 250px;
+  width: calc(100% - 250px);
+  padding: 8px 40px;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.contentArea {
+  font-size: 16px;
+}
+
+.breadcrumb__path {
+  padding: 5px !important;
+  margin-top: 12px;
+}
+
+.breadcrumb__path li {
+  height: 20px !important;
+  margin-top: 0px;
+  font-size: 14.5px;
+  display: flex;
+}
+
+.line {
+  border: 0;
+  height: 1.2px;
+  background: #ccc;
+  width: 100%;
+  margin: 12px 0 10px;
+}
+
+.welcomemsg {
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  background: #EFEFEF;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 11px;
+  border-radius: 6px;
+}
+
+.contentbody{
+  padding-top: 22px;
+}
+
+
+.furnitureButton{
+  background-color: rgb(47, 109, 224);
+  
+  font-size: 20px;
+  
+}
+
+
+/* CSS styles for the date input */
+label[for="date"] {
+  
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #363131;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Optional: You can customize the appearance of the date picker dropdown */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: transparent;
+ 
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* Optional: Add more styles to enhance the appearance of the date input */
+input[type="date"]:focus {
+  outline: none;
+  border-color: #5c7cfa;
+  box-shadow: 0 0 3px #5c7cfa;
+}
+
+
+textarea {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.2s ease-in-out;
+}
+
+textarea:hover,
+textarea:focus {
+  border-color: #000000;
+}
+
+
+input[type="text"] {
+  border: 10px solid #ccc;
+  background-color: #fff;
+  color: rgb(20, 19, 19);
+  
+  padding: 18px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+  border-color: #000000;
+}
+
+
+select {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+select:hover,
+select:focus {
+  border-color: #666;
+}

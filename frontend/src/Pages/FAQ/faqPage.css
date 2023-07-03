@@ -1,0 +1,11 @@
+.card .title{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.card{
+    margin: 100px 250px;
+}

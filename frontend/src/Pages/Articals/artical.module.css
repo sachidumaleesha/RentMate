@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .house_details {
+    padding: 0 12%;
+  }
+  
+  .house_title {
+    margin-top: 50px;
+  }
+  
+  .house_title h1 {
+    font-weight: 500;
+    
+    
+  }
+  
+  .house_title .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 05px 0;
+  }
+  
+  .house_title .row i {
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .house_title .row p {
+    font-size: 15.5px;
+  }
+  
+  /* Gallery */
+  .house_details .gallery {
+    display: grid;
+    grid-gap: 37px;
+    grid-template-areas: "first first . ." "first first . .";
+    margin: 30px 0;
+  }
+  
+  .house_details .gallery div img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .gallery .gallery_img_1 {
+    grid-area: first;
+  }
+  
+  .house_details .small_details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .house_details .small_details i {
+    margin: 0;
+  }
+  
+  .house_details .small_details .info span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .house_details .small_details .info i {
+    color: #000;
+    font-size: 25px;
+    margin-right: 4px;
+  }
+  
+  .house_details .small_details .info p,
+  .house_details .small_details .info p div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .house_details .small_details .info p{
+      margin-top: 01px;
+  }
+  
+  .house_details .small_details .info p div {
+    margin-right: 25px;
+  }
+  
+  .house_details .small_details .info p p{
+      font-size: 15px;
+  }
+  
+  .house_details .line{
+      border: none;
+      height: 2px;
+      background: #ccc;
+      width: 100%;
+      margin: 10px 0 50px;
+  }
+
+  .leftcolumn {   
+    float: left;
+    width:60%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 40%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

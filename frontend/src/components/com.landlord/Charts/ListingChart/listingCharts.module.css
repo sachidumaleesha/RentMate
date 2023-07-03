@@ -1,0 +1,5 @@
+.data__charts div canvas{
+    height: 400px !important;
+    width: 450px !important;
+    padding-left: 50px !important;
+}

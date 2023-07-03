@@ -1,0 +1,29 @@
+.top__filter__row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content__area__section{
+    padding: 50px
+}
+
+.content__area__section .service__name{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all__datacards .smallinfo__show{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+
+.all__datacards .row__datacards{
+    margin-bottom: 10px;
+}
+
+.smallinfo__show .link{
+    text-decoration: none;
+    color: black;
+}

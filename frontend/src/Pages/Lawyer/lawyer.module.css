@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.lawyer_details {
+  padding: 0 12%;
+}
+
+
+
+.lawyer_title {
+  margin-top: 50px;
+}
+
+.lawyer_title h1 {
+  font-weight: 500;
+}
+
+.lawyer_details .line{
+  border: none;
+  height: 2px;
+  background: #ccc;
+  width: 100%;
+  margin: 10px 0 50px;
+}
+
+
+.mainCard {
+  background-color: #fff;
+padding: 10px;
+box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+border-radius: 12px;
+height: 100%;
+border-radius: 10px; 
+}
+/* .image_lawyer{
+
+
+} */
+
+.maincolum{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+
+.parallax_container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.mainbody5{
+  background-color: rgb(227, 243, 247);
+  padding: 10px; 
+  box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+  border-radius: 12px;
+  border-radius: 10px; 
+  width:100%; 
+  height: 500px; 
+  flex-direction: row; 
+  align-items: center; 
+  padding: 30px; 
+  margin-bottom:70px;  
+  margin-top: 10px;
+  margin-left: 40px;
+  
+} 
+
+.userShowBottom{
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+ 
+.userShowInfo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.userShowIcon{
+  font-size: 16px !important;
+}
+
+.userShowInfoTitle{
+  margin-left: 10px;
+}

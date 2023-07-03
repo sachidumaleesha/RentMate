@@ -1,0 +1,62 @@
+.top__content{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top_content .right_side{
+    display: flex;
+  }
+  
+  .left__side Input{
+    height: 40px;
+  }
+  
+  .right__side Button{
+    margin-left: 05px;
+    height: 40px;
+  }
+  
+  .tablearea__content table{
+    margin-top: 7px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    min-height: 0 !important;
+  }
+  
+  .tablearea__content table th,
+  .tablearea__content table td{
+    padding: 0;
+    height: 50px;
+    padding: 7px 0 0 15px;
+    text-align: left;
+    border: 0.5px solid #656d78 !important;
+  }
+  
+  .tablearea__content table th{
+    background: #04AA6D;
+    color:#fff;
+  }
+  
+  .tablearea_content table td .status_btn{
+    width: 80px;
+  }
+  
+  .tablearea__content table td Button{
+    margin-right: 5px;
+  }
+  
+  .tablearea__content table tr:nth-child(even){
+    background: #f2f2f2;
+    color: #000;
+  }
+  
+  .tablearea__content table tr:nth-child(odd){
+    background: #fff;
+    color: #000;
+  }
+  
+  .tablearea__content td img{
+    border-radius: 5px;
+  }

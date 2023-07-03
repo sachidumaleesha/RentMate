@@ -1,0 +1,80 @@
+.replyform {
+  box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+  width: 60%;
+  height: 80%;
+  margin-left: 200px;
+  background-color: #fff;
+}
+
+ .newUserRow {
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+   align-items: center; 
+   margin-bottom: 10px;
+  width: 100%; 
+} 
+
+.newUserItem {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.newUserItem label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  order: 2;
+}
+
+.newUserItem textarea{
+  resize: none;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  order: 1;
+  border-radius: 2;
+
+}
+.newUserItem input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  order: 1;
+} 
+
+.newUserButton {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 300px;
+  margin-left: 200px;
+
+}
+
+.newUserButton:hover {
+  background-color: #3e8e41;
+ 
+
+}
+
+.newUserTitle{
+  font-size: 22px;
+  text-align: center;
+  padding-top: 25px;
+
+
+}
+

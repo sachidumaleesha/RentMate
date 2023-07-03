@@ -1,0 +1,137 @@
+.mainContainer {
+  width: 70%;
+  height: 600px;
+  /* background-color: rgb(251, 249, 245); */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.imageContainer {
+  width: 480px;
+  height: 100%;
+  background-image: url("./image/signin.jpeg");
+
+  background-size: contain;
+  object-fit: cover;
+}
+.loginContainer {
+  box-shadow: 0 3px 10px rgb(1 0 0 / 0.2);
+  width: 570px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.inner {
+  padding-top: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.form_head .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form_head {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.form-groupmain {
+  margin-top: 35px;
+}
+
+.group {
+  margin-bottom: 5px;
+}
+.group .label_text {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.group .form_control {
+  width: 100%;
+  height: 50px;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #3d065d;
+}
+.group .form_control:focus {
+  border-bottom: 2px solid #3d065d;
+}
+.check_action {
+  justify-content: space-between;
+  
+  width: 19px;
+}
+
+.form_button {
+  display: flex;
+  justify-content: space-between; 
+}
+.actions {
+  margin-top: 15px;
+}
+
+.actions .btn_google {
+  background-color: #154fa1;
+  cursor: pointer;
+  color: white;
+  width: 440px;
+  border-radius: 5px;
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.actions .btn_google:hover {
+  background-color: rgb(38, 38, 240);
+  transition: -5s all ease;
+}
+.actions .btn_google.icon {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  text-decoration: solid;
+}
+.actions i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.btn1 {
+  color: white;
+  width: 440px;
+  height: 9px;
+  background-color: #3981ff;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 35px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+.btn1:hover {
+  background-color: #2373ff;
+}
+
+.form_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.group .input1{
+  position: absolute;
+  right: 13px ;
+  top:50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #919191;
+  cursor: pointer;
+  padding: 3px;
+
+}

@@ -1,0 +1,9 @@
+.CardSet {
+    margin: 0px auto;
+    width: 100%;
+    min-height: 580px;
+    background-color: rgba(109, 109, 109, 0.178);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}

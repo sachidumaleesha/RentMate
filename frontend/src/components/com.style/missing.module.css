@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.page404 {
+  padding: 70px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.page404 img {
+  width: 100%;
+}
+
+.errorcode {
+  background: url("./images/404.gif");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.errorcode h1 {
+  font-size: 80px;
+}
+
+.errormsg h3 {
+  font-size: 30px;
+}
+
+.errormsg p {
+  margin-bottom: 10px;
+}
+
+.page404 .link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #39ac31;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.page404 .link:hover {
+  background: #339b2c;
+}

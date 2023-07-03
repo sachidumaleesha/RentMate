@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  padding: 30px 50px;
+}
+
+.content .link {
+  color: #0a223d;;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content .navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.content .navigation .viewall .link{
+  font-size: 15px;
+}
+
+.content .servicename{
+  display: flex;
+}
+
+.content .servicename i {
+  color: #0a223d;
+  font-size: 30px;
+  margin: 0;
+}
+
+.content .servicename span {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #0a223d;
+  margin-top: 2px;
+}
+
+.content .navigation .viewall {
+  padding-top: 12px;
+  padding-right: 2px;
+  text-decoration: underline;
+}
+
+.content .cards .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: calc(25% - 10px); /* Adjust the width as needed */
+  /* Add other styles for the column */
+}
+
+.column4 {
+  width: calc(25% - 10px); /* Adjust the width as needed */
+}
+
+.content .cards .column .smallinfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content .imageview {
+  margin-bottom: 2px;
+}
+
+.content .imageview img {
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.content .imageview img:hover{
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 16px;
+}
+
+.content .smallinfo {
+  font-size: 16.5px;
+}
+
+.content .row {
+  margin-bottom: 5px;
+}
